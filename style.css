@@ -1,0 +1,85 @@
+/* colors and fonts */
+body{
+	background: white;
+		color: #db6a6a;
+	font-family: 'Lora', sans-serif;
+	font-weight: bolder;
+	font-size: 16px;
+}
+
+h1, h2, h3{
+	font-family: 'Roboto', sans-serif;
+	color: #536493;
+}
+h1{
+    font-size: 32px;
+    font-weight: 700;
+
+h2{
+	font-size:28px ;
+	font-weight: 500;
+}
+
+a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+}
+a:hover {
+	color: black;
+}
+
+.img-circle {
+	border-radius: 50%;
+	width: 140px;
+}
+
+
+
+/* custom design with class*/
+
+.container {
+	width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+	.container {
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px) {
+	.container {
+		width: 400px;
+	}
+} 
+
+
+.card-white {
+	background-color: #D4BDAC;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    margin: 28px 0px;
+    text-align: center;
+}
+.btn-blue {
+	background-color:#6B72E1 ;
+	color: white;
+	padding:  15px 20px;
+	border-radius: 4px;
+}
+.btn-blue:hover {
+	background-color: black;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 10px;
+}
